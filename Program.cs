@@ -1,12 +1,27 @@
-﻿using System;
+using System;
 
-namespace Udemyyyyy
+namespace udemy
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+ //Converting angles to radian
+
+            
+            const int PI = 180;
+            double radian;
+
+            Console.WriteLine("Enter angle - ");
+            double angle = double.Parse(Console.ReadLine());
+
+            radian = angle / PI;
+            Console.WriteLine("Your answer is - {0}", radian);
+            
+
+
+
+           
         }
     }
 }
